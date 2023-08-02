@@ -1,5 +1,3 @@
-let arr = [3, 2, 5, 6, 7, 2, 1, 9, 10, 5]
-
 function mergeSort(arr) {
   if (arr.length < 2) return arr
 
@@ -27,5 +25,3 @@ function mergeSort(arr) {
 
   return arr
 }
-
-console.log(mergeSort(arr))
